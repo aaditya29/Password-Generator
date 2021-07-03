@@ -8,4 +8,9 @@ from secrets import choice
 
 # Here, secrets.choice(sequence) returns a randomly-chosen element from a non-empty sequence.
 
+characters = string.ascii_letters + string.punctuation + string.digits
+# string.punctuation is a pre-initialized string used as string constant. In Python, string.punctuation will give the all sets of punctuation.
+# e.g. !"#$%&'()*+, -./:;<=>?@[\]^_`{|}~
+# string.digits prints ascii letters and string.digits print numbers
+print(characters)
 
