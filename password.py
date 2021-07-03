@@ -14,3 +14,5 @@ characters = string.ascii_letters + string.punctuation + string.digits
 # string.digits prints ascii letters and string.digits print numbers
 print(characters)
 
+password = "".join(choice(characters) for x in range(0, 32))
+print(password)
