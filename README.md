@@ -9,3 +9,4 @@ Practice python repository for building password generator through python with t
 
 #### Technologies Used
 1. Python
+2. Secrets Library
