@@ -12,7 +12,7 @@ characters = string.ascii_letters + string.punctuation + string.digits
 # string.punctuation is a pre-initialized string used as string constant. In Python, string.punctuation will give the all sets of punctuation.
 # e.g. !"#$%&'()*+, -./:;<=>?@[\]^_`{|}~
 # string.digits prints ascii letters and string.digits print numbers
-print(characters)
+print("Password is choosen from following characters:", characters)
 
 password = "".join(choice(characters) for x in range(0, 32))
 print(password)
