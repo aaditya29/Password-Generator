@@ -1,4 +1,5 @@
 ## Building Password Generator From Python
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/aaditya29/Password-Generator.git)
 
 #### Why Password Generator?
 To prevent your passwords from being hacked by social engineering, brute force or dictionary attack method,<br>
